@@ -104,6 +104,8 @@ app.use('/api/warranty', require('./routes/warranty'));
 app.use('/api/testrides', require('./routes/testrides'));
 app.use('/api/feedback', require('./routes/feedback'));
 app.use('/api/appointments', require('./routes/appointments'));
+app.use('/api/invoice-helper', require('./routes/invoice-helper'));
+app.use('/api/pricelist', require('./routes/pricelist'));
 
 // ========== Health & Root ==========
 app.get('/', (req, res) => {
