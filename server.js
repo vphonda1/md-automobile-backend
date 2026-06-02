@@ -63,6 +63,7 @@ app.use('/api/settings', require('./routes/settings'));
 // Customer & Vehicle
 app.use('/api/customers', require('./routes/customers'));
 app.use('/api/vehicles', require('./routes/vehicles'));
+app.use('/api/excel-import', require('./routes/excelImport'));
 
 // Invoicing
 app.use('/api/invoices', require('./routes/invoices'));
