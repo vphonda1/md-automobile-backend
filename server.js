@@ -71,6 +71,7 @@ app.use('/api/quotations', require('./routes/quotations'));
 app.use('/api/pricelist', require('./routes/pricelist'));
 app.use('/api/invoice-helper', require('./routes/invoice-helper'));
 app.use('/api/emis', require('./routes/emis'));
+app.use('/api/admin', require('./routes/sync'));
 
 // Service
 app.use('/api/jobcards', require('./routes/jobcards'));
