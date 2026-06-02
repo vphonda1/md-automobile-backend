@@ -70,6 +70,7 @@ app.use('/api/invoices', require('./routes/invoices'));
 app.use('/api/quotations', require('./routes/quotations'));
 app.use('/api/pricelist', require('./routes/pricelist'));
 app.use('/api/invoice-helper', require('./routes/invoice-helper'));
+app.use('/api/emis', require('./routes/emis'));
 
 // Service
 app.use('/api/jobcards', require('./routes/jobcards'));
